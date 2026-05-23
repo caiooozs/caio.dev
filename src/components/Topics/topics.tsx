@@ -52,6 +52,22 @@ const projects: ProjectCardProps[] = [
     ],
     building: true,
   },
+  {
+    title: "SenacHub",
+    description:
+      "A system under development to keep students updated on news, events, activities, projects, and much more.",
+    github: "",
+    website: "",
+    stacks: [
+      "NextJS",
+      "TypeScript",
+      "Shadcn UI",
+      "Tailwind",
+      "Supabase",
+      "Tanstack Query",
+    ],
+    building: true,
+  },
 ];
 
 const Topics = () => {
