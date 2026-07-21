@@ -19,25 +19,6 @@ const projects: ProjectCardProps[] = [
     building: false,
   },
   {
-    title: "Countries App",
-    description:
-      "Project to apply the MVVM architecture and clean architecture.",
-    github: "https://github.com/caiooozs/countries-app",
-    website: "https://countries-app-delta-orpin.vercel.app/",
-    stacks: [
-      "React",
-      "TypeScript",
-      "REST Countries API",
-      "MVVM Architecture",
-      "Clean Code",
-      "Shadcn UI",
-      "Tailwind",
-      "Tanstack Query",
-      "Axios",
-    ],
-    building: false,
-  },
-  {
     title: "Hyphen Community Hub",
     description:
       "A system under development to keep students updated on news, events, activities, projects, and much more.",
