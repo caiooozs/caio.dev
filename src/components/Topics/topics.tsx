@@ -28,8 +28,8 @@ const projects: ProjectCardProps[] = [
       "React",
       "TypeScript",
       "REST Countries API",
-      "MVVM",
-      "Clean Architecture",
+      "MVVM Architecture",
+      "Clean Code",
       "Shadcn UI",
       "Tailwind",
       "Tanstack Query",
@@ -38,36 +38,37 @@ const projects: ProjectCardProps[] = [
     building: false,
   },
   {
-    title: "EBAQUE",
-    description: "Financial and class management dashboard for a local church.",
-    github: "https://github.com/caiooozs/ebaque-front",
-    stacks: [
-      "NextJS",
-      "TypeScript",
-      "Shadcn UI",
-      "Tailwind",
-      "Supabase",
-      "Recharts",
-      "Tanstack Query",
-    ],
-    building: true,
-  },
-  {
-    title: "SenacHub",
+    title: "Hyphen Community Hub",
     description:
       "A system under development to keep students updated on news, events, activities, projects, and much more.",
-    github: "",
-    website: "",
+    github: "https://github.com/caiooozs/hyphen-community",
+    website: "https://hyphen-community.vercel.app/",
     stacks: [
       "NextJS",
       "TypeScript",
       "Shadcn UI",
       "Tailwind",
       "Supabase",
-      "Tanstack Query",
+            "Tanstack Query",
     ],
-    building: true,
+    building: false,
   },
+  {
+    title: "CTRL+Match",
+    description: "A system that help beginners IT students to get jobs easily by matching them with companies ",
+    github:"https://github.com/juninhos-comunidade/ctrl-match",
+    website: "",
+    stacks: ["NextJS", "TypeScript", "Tailwind", "Shadcn UI", "NodeJS", "Tanstack Query", "AI", "PostgreSQL"],
+    building: true
+  },
+  {
+    title: "Pharmacy Management System",
+    description: "Pharmacy management system for monitoring and controlling sales and stock of medications. Made to help my neighborhood pharmacy",
+    github:"https://github.com/caiooozs/pharmacy-controll",
+    website: "",
+    stacks: ["NextJS", "TypeScript", "Tailwind", "Shadcn UI", "Supabase", "AI", "Tanstack Query", "MVVM Architecture"],
+    building: true
+  }
 ];
 
 const Topics = () => {
